@@ -29,11 +29,11 @@ public class Main extends Sub {
 	public static void comment(int winCount) {
 		if(winCount == 0) {
 			System.out.println(winCount + "勝でした。まだまだ...");
-		}else if(winCount == 1 || winCount == 2 || winCount == 3) {
+		}else if(winCount == 1 - 3) {
 			System.out.println(winCount + "勝でした。もう少し頑張ろう");
-		}else if(winCount == 4 || winCount == 5 || winCount == 6 || winCount == 7) {
+		}else if(winCount == 4 - 7) {
 			System.out.println(winCount + "勝でした。あと少し！！");
-		}else if(winCount == 8 || winCount == 9) {
+		}else if(winCount == 8 -9) {
 			System.out.println(winCount + "勝でした。よく頑張った！！！");
 		}else if(winCount == 10) {
 			System.out.println("全勝でした！素晴らしい！！");
