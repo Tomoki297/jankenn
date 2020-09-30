@@ -44,7 +44,7 @@ public class Main extends Sub {
 		handSelect = s.nextInt();
 		if (handSelect == 0 || handSelect == 1 || handSelect == 2) {
 			playerHand = hand[handSelect];
-			System.out.println(playerHand);
+			System.out.println("あなたは"+ playerHand + "です");
 		}else {
 			System.out.println("もう一度入力してください");
 			playerhands(s);
@@ -54,7 +54,7 @@ public class Main extends Sub {
 
 	public static void pchands(Random r) {
 		pcHand = hand[r.nextInt(3)];
-		System.out.println(pcHand);
+		System.out.println("相手は" + pcHand + "です");
 	}
 
 	public static void judge(Scanner s, Random r) {
